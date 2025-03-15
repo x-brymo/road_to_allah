@@ -82,7 +82,7 @@ class _SurahScrollSelectionState extends State<SurahScrollSelection> {
                                   ? Theme.of(context).scaffoldBackgroundColor
                                   : Theme.of(context)
                                       .colorScheme
-                                      .background
+                                      .surface
                                       .withOpacity(
                                         0.4,
                                       ),

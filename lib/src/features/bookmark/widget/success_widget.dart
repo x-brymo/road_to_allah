@@ -50,7 +50,7 @@ class SuccessWidget extends StatelessWidget {
                                 decoration: BoxDecoration(
                                   borderRadius: kCardBorderRadius,
                                   color:
-                                      Theme.of(context).colorScheme.background,
+                                      Theme.of(context).colorScheme.surface,
                                 ),
                                 child: QuranCard(
                                   state.qurans[index],

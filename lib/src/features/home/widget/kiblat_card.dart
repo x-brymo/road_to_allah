@@ -24,7 +24,7 @@ class KiblatCard extends StatelessWidget {
         child: Container(
           padding: kCardPadding,
           decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.background.withOpacity(0.85),
+            color: Theme.of(context).colorScheme.surface.withOpacity(0.85),
             borderRadius: kCardBorderRadius,
           ),
           child: Column(

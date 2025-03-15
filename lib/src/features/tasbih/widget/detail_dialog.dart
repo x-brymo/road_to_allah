@@ -70,7 +70,7 @@ class DetailDialog extends StatelessWidget {
                           borderSide: BorderSide.none,
                         ),
                         filled: true,
-                        fillColor: Theme.of(context).colorScheme.background,
+                        fillColor: Theme.of(context).colorScheme.surface,
                         contentPadding: kInputFieldPadding,
                         hintText: 'Input tasbih name here',
                         hintStyle:
@@ -143,7 +143,7 @@ class DetailDialog extends StatelessWidget {
                           borderSide: BorderSide.none,
                         ),
                         filled: true,
-                        fillColor: Theme.of(context).colorScheme.background,
+                        fillColor: Theme.of(context).colorScheme.surface,
                         contentPadding: kInputFieldPadding,
                         hintText: 'Input tasbih counts here',
                         hintStyle:
@@ -182,17 +182,17 @@ class DetailDialog extends StatelessWidget {
                       children: [
                         ElevatedButton(
                           style: ButtonStyle(
-                            shape: MaterialStateProperty.all(
+                            shape: WidgetStateProperty.all(
                               RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(
                                   8.r,
                                 ),
                               ),
                             ),
-                            backgroundColor: MaterialStateProperty.all(
+                            backgroundColor: WidgetStateProperty.all(
                               Theme.of(context).colorScheme.error,
                             ),
-                            minimumSize: MaterialStateProperty.all(
+                            minimumSize: WidgetStateProperty.all(
                               Size(
                                 0,
                                 40.h,
@@ -209,14 +209,14 @@ class DetailDialog extends StatelessWidget {
                         ),
                         ElevatedButton(
                           style: ButtonStyle(
-                            shape: MaterialStateProperty.all(
+                            shape: WidgetStateProperty.all(
                               RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(
                                   8.r,
                                 ),
                               ),
                             ),
-                            minimumSize: MaterialStateProperty.all(
+                            minimumSize: WidgetStateProperty.all(
                               Size(
                                 0,
                                 40.h,

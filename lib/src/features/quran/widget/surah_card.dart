@@ -70,7 +70,7 @@ class SurahCard extends StatelessWidget {
                 decoration: BoxDecoration(
                   border: Border(
                     bottom: BorderSide(
-                      color: Theme.of(context).colorScheme.background,
+                      color: Theme.of(context).colorScheme.surface,
                       width: 2.sp,
                     ),
                   ),

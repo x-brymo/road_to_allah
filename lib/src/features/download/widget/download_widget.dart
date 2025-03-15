@@ -39,7 +39,7 @@ class DownloadWidget extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   decoration: ShapeDecoration(
                     shape: const StadiumBorder(),
-                    color: Theme.of(context).colorScheme.background,
+                    color: Theme.of(context).colorScheme.surface,
                   ),
                   child: Container(
                     width: state.percent / 100 * 0.7.sw,

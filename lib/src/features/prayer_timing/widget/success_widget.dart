@@ -69,7 +69,7 @@ class SuccessWidget extends StatelessWidget {
                 decoration: BoxDecoration(
                     color: Theme.of(context)
                         .colorScheme
-                        .background
+                        .surface
                         .withOpacity(0.2),
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(32.r),

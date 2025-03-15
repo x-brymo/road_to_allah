@@ -17,7 +17,7 @@ class QuranTab extends StatelessWidget {
           margin: kPagePadding,
           decoration: BoxDecoration(
             borderRadius: kCardBorderRadius,
-            color: Theme.of(context).colorScheme.background,
+            color: Theme.of(context).colorScheme.surface,
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,

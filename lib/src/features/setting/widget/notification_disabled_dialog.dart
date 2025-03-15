@@ -19,7 +19,7 @@ class NotificationDisabledDialog extends StatelessWidget {
         ),
         decoration: BoxDecoration(
           borderRadius: kCardBorderRadius,
-          color: Theme.of(context).colorScheme.background,
+          color: Theme.of(context).colorScheme.surface,
         ),
         child: Column(
           mainAxisSize: MainAxisSize.min,

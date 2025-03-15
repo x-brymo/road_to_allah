@@ -58,7 +58,7 @@ class SelectedTasbihScreen extends StatelessWidget {
                                   foregroundColor:
                                       Theme.of(context).primaryColor,
                                   backgroundColor:
-                                      Theme.of(context).colorScheme.background,
+                                      Theme.of(context).colorScheme.surface,
                                   strokeWidth: 8.sp),
                             ),
                           ),
@@ -95,14 +95,14 @@ class SelectedTasbihScreen extends StatelessWidget {
                   ),
                   ElevatedButton(
                     style: ButtonStyle(
-                      shape: MaterialStateProperty.all(
+                      shape: WidgetStateProperty.all(
                         RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                             8.r,
                           ),
                         ),
                       ),
-                      minimumSize: MaterialStateProperty.all(
+                      minimumSize: WidgetStateProperty.all(
                         Size(
                           0,
                           56.h,
